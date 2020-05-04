@@ -1,34 +1,82 @@
 * .spacemacs
 
-This repo just has one file, the dot spacemacs file. There are 2 branches. One for simple emacs install mostly meant for remote usage of spacemacs. 
+This repo just has one file, the dot spacemacs file. There are 2 branches. One for simple emacs install mostly meant for remote usage of spacemacs.
 
 
-** base emacs version 
+** base emacs version
 
  The emacs version shouldn't matter but there's a lot of configuration in user config that is specific to this version, when using this spacemacs file do not touch.
 
- #+begin_src 
- GNU Emacs 25.3.1
- Copyright (C) 2017 Free Software Foundation, Inc.
- GNU Emacs comes with ABSOLUTELY NO WARRANTY.
- You may redistribute copies of GNU Emacs
- under the terms of the GNU General Public License.
- For more information about these matters, see the file named COPYING.
+ #+begin_src
+Copyright (C) 2017 Free Software Foundation, Inc.
+GNU Emacs 26.3
+GNU Emacs comes with ABSOLUTELY NO WARRANTY.
+You may redistribute copies of GNU Emacs
+under the terms of the GNU General Public License.
+
  #+end_src
 
-** user config changes
-
- set wrap and jk behaviour while wrapped
-
-** line number things 
+** init
 
  defun dotspace/init
+ has
 
-** Transient pasting  
+**** themes
 
- also in defun dotspacemacs/init
+**** font
 
+**** Transient pasting
+
+**** line numbering
+
+**** white space cleanup
 
 ** Layers
 
  layers are the basic unit of instalation for a lot of spacemacs features. This feature set is limited because emacs is meant to be used remotely at least partially.
+
+**** language layers
+
+***** c-c++
+
+***** python
+
+***** markdown
+
+***** (org
+
+**** general
+
+***** (treemacs ;; WARNING MAC OS X specific
+
+***** spell-checking
+
+***** shell
+
+
+***** themes-megapack
+
+***** helm
+
+***** auto-completion
+
+***** emacs-lisp
+
+***** git
+
+***** syntax-checking
+
+***** version-control
+
+**** Latex
+***** (latex ;; WARNING MAC OS X specific
+
+***** bibtex
+
+***** pdf ;; WARNING MAC OS X specific
+
+** user config
+
+**** word drap and jk behaviour
+
+**** org agenda keywords (TODO)
