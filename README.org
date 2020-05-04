@@ -1,0 +1,34 @@
+* .spacemacs
+
+This repo just has one file, the dot spacemacs file. There are 2 branches. One for simple emacs install mostly meant for remote usage of spacemacs. 
+
+
+** base emacs version 
+
+ The emacs version shouldn't matter but there's a lot of configuration in user config that is specific to this version, when using this spacemacs file do not touch.
+
+ #+begin_src 
+ GNU Emacs 25.3.1
+ Copyright (C) 2017 Free Software Foundation, Inc.
+ GNU Emacs comes with ABSOLUTELY NO WARRANTY.
+ You may redistribute copies of GNU Emacs
+ under the terms of the GNU General Public License.
+ For more information about these matters, see the file named COPYING.
+ #+end_src
+
+** user config changes
+
+ set wrap and jk behaviour while wrapped
+
+** line number things 
+
+ defun dotspace/init
+
+** Transient pasting  
+
+ also in defun dotspacemacs/init
+
+
+** Layers
+
+ layers are the basic unit of instalation for a lot of spacemacs features. This feature set is limited because emacs is meant to be used remotely at least partially.
